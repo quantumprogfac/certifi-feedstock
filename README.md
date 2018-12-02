@@ -17,9 +17,8 @@ hosts.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/certifi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/certifi-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/certifi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/certifi-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/certifi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/certifi-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/certifi-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/certifi-feedstock)
 
 Current release info
 ====================
