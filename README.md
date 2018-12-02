@@ -17,27 +17,27 @@ hosts.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/quantumprogfac/certifi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/quantumprogfac/certifi-feedstock)
-[![OSX](https://img.shields.io/travis/quantumprogfac/certifi-feedstock/master.svg?label=macOS)](https://travis-ci.org/quantumprogfac/certifi-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/quantumprogfac/certifi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/quantumprogfac/certifi-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/certifi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/certifi-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/certifi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/certifi-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/certifi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/certifi-feedstock/branch/master)
 
 Current release info
 ====================
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-certifi-green.svg)](https://anaconda.org/quantumprogfac/certifi) | [![Conda Downloads](https://img.shields.io/conda/dn/quantumprogfac/certifi.svg)](https://anaconda.org/quantumprogfac/certifi) | [![Conda Version](https://img.shields.io/conda/vn/quantumprogfac/certifi.svg)](https://anaconda.org/quantumprogfac/certifi) | [![Conda Platforms](https://img.shields.io/conda/pn/quantumprogfac/certifi.svg)](https://anaconda.org/quantumprogfac/certifi) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-certifi-green.svg)](https://anaconda.org/conda-forge/certifi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/certifi.svg)](https://anaconda.org/conda-forge/certifi) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/certifi.svg)](https://anaconda.org/conda-forge/certifi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/certifi.svg)](https://anaconda.org/conda-forge/certifi) |
 
 Installing certifi
 ==================
 
-Installing `certifi` from the `quantumprogfac` channel can be achieved by adding `quantumprogfac` to your channels with:
+Installing `certifi` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels quantumprogfac
+conda config --add channels conda-forge
 ```
 
-Once the `quantumprogfac` channel has been enabled, `certifi` can be installed with:
+Once the `conda-forge` channel has been enabled, `certifi` can be installed with:
 
 ```
 conda install certifi
@@ -46,7 +46,7 @@ conda install certifi
 It is possible to list all of the versions of `certifi` available on your platform with:
 
 ```
-conda search certifi --channel quantumprogfac
+conda search certifi --channel conda-forge
 ```
 
 
