@@ -1,4 +1,4 @@
-{% set version = "2018.12.01" %}
+{% set version = "2018.12.03" %}
 {% set name = "certifi" %}
 
 package:
@@ -7,7 +7,11 @@ package:
 
 source:
   url: https://github.com/JohnAdders/python-{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 06c41d3372ffec1c13868cd22067a4e6aa8ba50e79036609d6b175c1db864803
+  sha256: b19516d6e0617ee2b36f333136bdc474fd62d2eb3cba4bee7bb23290b24fb357
+
+
+
+
  
 build:
   noarch: python
